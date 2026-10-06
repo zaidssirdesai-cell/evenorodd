@@ -5,5 +5,5 @@ def evenorodd(num):
         return "odd"
 
 if __name__ == "__main__":
-    num = 27
+    num = int(sys.argv[1])
     print("even or odd", evenorodd(num))
