@@ -3,7 +3,3 @@ def evenorodd(num):
         return "even"
     else:
         return "odd"
-
-if __name__ == "__main__":
-    num = 27
-    print("even or odd", evenorodd(num))
