@@ -1,5 +1,5 @@
 def evenorodd(num):
     if(num% 2==0):
-        return "even"
+        print("even")
     else:
-        return "odd"
+        print("odd")
