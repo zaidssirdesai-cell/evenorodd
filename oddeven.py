@@ -5,4 +5,5 @@ def evenorodd(num):
         print(f"{num} is odd")
 
 if __name__ == "__main__":
-    print("even or odd", evenorodd(27))
+    num = 27
+    print("even or odd", evenorodd(num))
