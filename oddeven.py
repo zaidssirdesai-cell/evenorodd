@@ -1,8 +1,8 @@
 def evenorodd(num):
     if(num% 2==0):
-        print(f"{num} is even")
+        return "even"
     else:
-        print(f"{num} is odd")
+        return "odd"
 
 if __name__ == "__main__":
     num = 27
